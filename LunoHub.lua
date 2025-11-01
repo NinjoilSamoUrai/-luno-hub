@@ -1,5 +1,5 @@
 -- Luno HUB Loader (Red Style)
-local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/luno-hub/main/GameList.lua"))()
+local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/NinjoilSamoUrai/-luno-hub/main/GameList.lua"))()
 local URL = Games[game.PlaceId]
 
 if URL then
